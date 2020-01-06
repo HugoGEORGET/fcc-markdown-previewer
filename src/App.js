@@ -53,19 +53,26 @@ function App() {
   const [preview, setPreview] = useState(marked(placeholder));
 
   return (
-    <main>
-      <section id="left-area">
-        <textarea
-          id="editor"
-          onChange={event => setPreview(marked(event.target.value))}
-        >
-          {placeholder}
-        </textarea>
-      </section>
-      <section id="right-area">
-        <div id="preview" dangerouslySetInnerHTML={{ __html: preview }}></div>
-      </section>
-    </main>
+    <>
+      <h1 id="title">
+        <code>Mardown previewer</code>
+      </h1>
+      <main>
+        <section id="left-area">
+          <textarea
+            id="editor"
+            cols="100"
+            rows="50"
+            onChange={event => setPreview(marked(event.target.value))}
+          >
+            {placeholder}
+          </textarea>
+        </section>
+        <section id="right-area">
+          <div id="preview" dangerouslySetInnerHTML={{ __html: preview }}></div>
+        </section>
+      </main>
+    </>
   );
 }
 
