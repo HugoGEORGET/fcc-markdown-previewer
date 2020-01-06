@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/fcc-markdown-previewer/static/css/main.c80fcea3.chunk.css",
-    "main.js": "/fcc-markdown-previewer/static/js/main.bda93771.chunk.js",
-    "main.js.map": "/fcc-markdown-previewer/static/js/main.bda93771.chunk.js.map",
+    "main.css": "/fcc-markdown-previewer/static/css/main.7bd041c4.chunk.css",
+    "main.js": "/fcc-markdown-previewer/static/js/main.ad513e5e.chunk.js",
+    "main.js.map": "/fcc-markdown-previewer/static/js/main.ad513e5e.chunk.js.map",
     "runtime-main.js": "/fcc-markdown-previewer/static/js/runtime-main.767d551c.js",
     "runtime-main.js.map": "/fcc-markdown-previewer/static/js/runtime-main.767d551c.js.map",
-    "static/js/2.29b08a65.chunk.js": "/fcc-markdown-previewer/static/js/2.29b08a65.chunk.js",
-    "static/js/2.29b08a65.chunk.js.map": "/fcc-markdown-previewer/static/js/2.29b08a65.chunk.js.map",
+    "static/css/2.1c7ffa40.chunk.css": "/fcc-markdown-previewer/static/css/2.1c7ffa40.chunk.css",
+    "static/js/2.3ddc73fd.chunk.js": "/fcc-markdown-previewer/static/js/2.3ddc73fd.chunk.js",
+    "static/js/2.3ddc73fd.chunk.js.map": "/fcc-markdown-previewer/static/js/2.3ddc73fd.chunk.js.map",
     "index.html": "/fcc-markdown-previewer/index.html",
-    "precache-manifest.15f8b95e37967fb3df8e3116c62a6c90.js": "/fcc-markdown-previewer/precache-manifest.15f8b95e37967fb3df8e3116c62a6c90.js",
+    "precache-manifest.e1eae27e09f652020b51432e37aa7691.js": "/fcc-markdown-previewer/precache-manifest.e1eae27e09f652020b51432e37aa7691.js",
     "service-worker.js": "/fcc-markdown-previewer/service-worker.js",
-    "static/css/main.c80fcea3.chunk.css.map": "/fcc-markdown-previewer/static/css/main.c80fcea3.chunk.css.map",
-    "static/js/2.29b08a65.chunk.js.LICENSE": "/fcc-markdown-previewer/static/js/2.29b08a65.chunk.js.LICENSE"
+    "static/css/2.1c7ffa40.chunk.css.map": "/fcc-markdown-previewer/static/css/2.1c7ffa40.chunk.css.map",
+    "static/css/main.7bd041c4.chunk.css.map": "/fcc-markdown-previewer/static/css/main.7bd041c4.chunk.css.map",
+    "static/js/2.3ddc73fd.chunk.js.LICENSE": "/fcc-markdown-previewer/static/js/2.3ddc73fd.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.767d551c.js",
-    "static/js/2.29b08a65.chunk.js",
-    "static/css/main.c80fcea3.chunk.css",
-    "static/js/main.bda93771.chunk.js"
+    "static/css/2.1c7ffa40.chunk.css",
+    "static/js/2.3ddc73fd.chunk.js",
+    "static/css/main.7bd041c4.chunk.css",
+    "static/js/main.ad513e5e.chunk.js"
   ]
 }
