@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import marked from "marked";
 import "./App.css";
+import "../node_modules/github-markdown-css/github-markdown.css";
 
 const placeholder = `# Welcome to my React Markdown Previewer!
 
@@ -61,7 +62,7 @@ function App() {
         <section id="left-area">
           <textarea
             id="editor"
-            cols="100"
+            cols="115"
             rows="50"
             onChange={event => setPreview(marked(event.target.value))}
           >
@@ -69,7 +70,7 @@ function App() {
           </textarea>
         </section>
         <section id="right-area">
-          <div id="preview" dangerouslySetInnerHTML={{ __html: preview }}></div>
+          <div id="preview" className="markdown-body" dangerouslySetInnerHTML={{ __html: preview }}></div>
         </section>
       </main>
     </>

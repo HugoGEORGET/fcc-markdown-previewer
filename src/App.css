@@ -7,6 +7,7 @@ main {
 }
 
 #right-area {
+  width: calc(50% - 3rem);
   margin-left: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
