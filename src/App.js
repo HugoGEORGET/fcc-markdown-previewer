@@ -3,6 +3,8 @@ import marked from "marked";
 import "./App.css";
 import "../node_modules/github-markdown-css/github-markdown.css";
 
+marked.setOptions({ breaks: true });
+
 const placeholder = `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
@@ -70,7 +72,11 @@ function App() {
           </textarea>
         </section>
         <section id="right-area">
-          <div id="preview" className="markdown-body" dangerouslySetInnerHTML={{ __html: preview }}></div>
+          <div
+            id="preview"
+            className="markdown-body"
+            dangerouslySetInnerHTML={{ __html: preview }}
+          ></div>
         </section>
       </main>
     </>
