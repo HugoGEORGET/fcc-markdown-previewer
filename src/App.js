@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import marked from "marked";
+import { marked } from "marked";
 import "./App.css";
 import "../node_modules/github-markdown-css/github-markdown.css";
 
